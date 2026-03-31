@@ -14,11 +14,11 @@ skin type, scores key skin concerns, and recommends skincare products.
 ## metrics analyzed
 
 - texture score - laplacian variance of skin surface
-- smoothness score — inverse texture measurement  
-- pigmentation score — color channel variance across RGB
-- redness score — red channel ratio analysis
-- pore visibility — high frequency component detection
-- overall health score — weighted combination of all metrics
+- smoothness score - inverse texture measurement  
+- pigmentation score - color channel variance across RGB
+- redness score - red channel ratio analysis
+- pore visibility - high frequency component detection
+- overall health score - weighted combination of all metrics
 
 ## model performance
 
@@ -44,20 +44,20 @@ python · opencv · scikit-learn · pandas · matplotlib · seaborn · google co
 
 ## datasets
 
-- oily/dry/normal skin types image dataset — kaggle
-- sephora cosmetics products dataset — kaggle
+- oily/dry/normal skin types image dataset - kaggle
+- sephora cosmetics products dataset - kaggle
 
 ## key findings
 
 - oily skin scored highest on health metrics (21.05) due to 
   light reflectance properties captured by laplacian variance
-- dry skin showed lowest smoothness (13.81) — consistent with 
+- dry skin showed lowest smoothness (13.81) - consistent with 
   known texture characteristics of dry skin types
-- classifier achieved 32% accuracy on compressed low-res images —
+- classifier achieved 32% accuracy on compressed low-res images -
   production accuracy would improve significantly with high-res 
   controlled lighting images (standard in commercial skin analysis tools)
 - dry vs normal misclassification mirrors challenges seen in 
-  commercial skin analysis tools — a known problem in the field
+  commercial skin analysis tools - a known problem in the field
 - product recommendations correctly map to skin type needs:
   oily → lightweight gel formulas
   dry → rich hydrating treatments  
@@ -65,7 +65,7 @@ python · opencv · scikit-learn · pandas · matplotlib · seaborn · google co
 
 ## limitations & next steps
 
-- model accuracy limited by image quality — next step is fine-tuning 
+- model accuracy limited by image quality - next step is fine-tuning 
   on high resolution clinical images
 - health scoring formula can be improved with dermatologist validated 
   weights
