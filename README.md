@@ -1,4 +1,4 @@
-# skiniq — ai skincare analysis & product recommendation
+# skiniq - ai skincare analysis & product recommendation
 
 computer vision pipeline that analyzes facial skin images, classifies 
 skin type, scores key skin concerns, and recommends skincare products.
@@ -13,7 +13,7 @@ skin type, scores key skin concerns, and recommends skincare products.
 
 ## metrics analyzed
 
-- texture score — laplacian variance of skin surface
+- texture score - laplacian variance of skin surface
 - smoothness score — inverse texture measurement  
 - pigmentation score — color channel variance across RGB
 - redness score — red channel ratio analysis
