@@ -71,3 +71,6 @@ python · opencv · scikit-learn · pandas · matplotlib · seaborn · google co
   weights
 - recommendation engine can be expanded with ingredient analysis 
   to flag irritants for sensitive skin
+
+  Language:
+  Python
